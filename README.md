@@ -31,7 +31,7 @@ Hacé un fork de este repo:
 Cloná tu fork, reemplazando `[TU_ALIAS]` con el nombre de tu cuenta de GitHub. Podés clonarlo utilizando la consola:
 
 ```
-git clone https://github.com/[TU_ALIAS]/DevOff-Desafio-1
+git clone https://github.com/[TU_ALIAS]/DevOff-Desafio-2
 ```
 
 También podés utilizar GitHub Desktop, tu IDE favorito, lo que gustes.
@@ -40,7 +40,7 @@ Cuando finalices la resolución del desafío, no olvides subir todos tus cambios
 
 ### Si no tenés una cuenta en GitHub
 
-[Podés hacer clic aquí y mágicamente se descargará un archivo comprimido con todo lo que contiene este repositorio](https://github.com/devoffarg/DevOff-Desafio-1/archive/master.zip).
+[Podés hacer clic aquí y mágicamente se descargará un archivo comprimido con todo lo que contiene este repositorio](https://github.com/devoffarg/DevOff-Desafio-2/archive/master.zip).
 
 Cuando finalices la resolución del desafío, envianos un archivo ZIP con todo tu trabajo a través de [WeTransfer](https://wetransfer.com/).
 
