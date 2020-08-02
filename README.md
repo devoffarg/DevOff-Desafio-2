@@ -21,7 +21,7 @@ En base a nuestro parámetro `L`, generamos una matriz de dimensión `N x L`, do
 Procedemos a rellenar la matriz de manera longitudinal, saltando a una nueva fila a medida que se completa la anterior, hasta haber agotado el mensaje.
 A continuación, procedemos a transponer la matriz y recuperar el texto de manera longitudinal, manteniendo espacios si los hubiera.
 
-Por ejemplo, dado el texto `Devoff Argentina se puso ATR` y una longitud de `4`, la matriz inicial nos quedaría de la siguiente manera:
+Por ejemplo, dado el texto `Devoff se puso ATR` y una longitud de `4`, la matriz inicial nos quedaría de la siguiente manera:
 
 ```
 | D | e | v | o |
