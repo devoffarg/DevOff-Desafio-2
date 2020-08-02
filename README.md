@@ -6,7 +6,7 @@ Vamos a implementar una versión moderna de un instrumento milenario que represe
 
 ## Un poco de historia
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="450">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="300">
 La escítala es un mecanismo de cifrado que surje en Esparta como forma sencilla para generar mensajes secretos, compartirlos y descifrarlos con la misma facilidad.
 
 El método consistía en utilizar una vara de cierto espesor, alrededor de la cual una cinta de papiro u algún otro material para luego escribir en ella el mensaje de manera horizontal, siguiendo la dirección de la vara.
@@ -68,6 +68,7 @@ y deberán devolver un JSON con el mensaje cifrado/descifrado con el siguiente f
 ## Condiciones del desafío
 
 ⛔ Sólo podrás incorporar dependencias para levantar el servidor. El algoritmo no puede basarse en paquetes externos.
+
 ✅ Podrás utilizar cualquier lenguaje de programación que tenga un módulo HTTP disponible y [esté soportado en Repl.it](https://repl.it/languages)
 
 ## 📚 Herramientas de consulta
