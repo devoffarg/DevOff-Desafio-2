@@ -6,7 +6,7 @@ Vamos a implementar una versión moderna de un instrumento milenario que represe
 
 ## Un poco de historia
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="400">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="450">
 La escítala es un mecanismo de cifrado que surje en Esparta como forma sencilla para generar mensajes secretos, compartirlos y descifrarlos con la misma facilidad.
 
 El método consistía en utilizar una vara de cierto espesor, alrededor de la cual una cinta de papiro u algún otro material para luego escribir en ella el mensaje de manera horizontal, siguiendo la dirección de la vara.
