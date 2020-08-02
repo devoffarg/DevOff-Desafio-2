@@ -67,9 +67,13 @@ y deberán devolver un JSON con el mensaje cifrado/descifrado con el siguiente f
 
 ## Condiciones del desafío
 
-⛔ Sólo podrás incorporar dependencias para levantar el servidor. El algoritmo no puede basarse en paquetes externos.
+⛔ El algoritmo de cifrado y descifrado no puede utilizar ninguna dependencia externa.
 
-✅ Podrás utilizar cualquier lenguaje de programación que tenga un módulo HTTP disponible y [esté soportado en Repl.it](https://repl.it/languages)
+✅ El servidor de la API deberá soportar requests desde dominios que no sean localhost.
+
+✅ Podrás incorporar dependencias para levantar el servidor (ej: si utilizas Node, podrás instalar Express).
+
+✅ Podrás utilizar cualquier lenguaje de programación que tenga un módulo HTTP disponible y [esté soportado en Repl.it](https://repl.it/languages).
 
 ## 📚 Herramientas de consulta
 
