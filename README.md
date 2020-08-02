@@ -2,11 +2,73 @@
 
 # Desafío 2 - 02/08/2020
 
-<Desafío></Desafío>
+Vamos a implementar una versión moderna de un instrumento milenario que representa uno de los primeros sistemas de cifrado de la historia de la humanidad: una escítala. Construiremos una escítala en forma de REST API para cifrar y descifrar mensajes.
+
+## Un poco de historia
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Skytale.png/1200px-Skytale.png" align="right" width="400">
+La escítala es un mecanismo de cifrado que surje en Esparta como forma sencilla para generar mensajes secretos, compartirlos y descifrarlos con la misma facilidad.
+
+El método consistía en utilizar una vara de cierto espesor, alrededor de la cual una cinta de papiro u algún otro material para luego escribir en ella el mensaje de manera horizontal, siguiendo la dirección de la vara.
+
+Al recibir el mensaje, el receptor poseía una vara con el mismo espesor que aquella utilizada para generar el mensaje, por lo que el proceso de descifrado consisitía en enrollar la cinta en la vara y leer el mensaje.
+
+## El algoritmo
+
+A la hora de cifrar un mensaje con este mecanismo podemos pensar a la escitala como una matriz rectangular de la cual sabemos una de sus medidas, por ejemplo, su longitud dada la cantidad de vueltas que la cinta da sobre la vara. Para simplificar, llamaremos a este parámetro `L`.
+
+En base a nuestro parámetro `L`, generamos una matriz de dimensión `N x L`, donde `N` se deriva a partir de `L` y la longitud del mensaje.
+Procedemos a rellenar la matriz de manera longitudinal, saltando a una nueva fila a medida que se completa la anterior, hasta haber agotado el mensaje.
+A continuación, procedemos a transponer la matriz y recuperar el texto de manera longitudinal, manteniendo espacios si los hubiera.
+
+Por ejemplo, dado el texto `Devoff Argentina se puso ATR` y una longitud de `4`, la matriz inicial nos quedaría de la siguiente manera:
+
+```
+| D | e | v | o |
+| f | f |   | s |
+| e |   | p | u |
+| s | o |   | A |
+| T | R |   |   |
+```
+
+Que una vez transpuesto quedaría:
+
+```
+| D | f | e | s | T |
+| e | f |   | o | R |
+| v |   | p |   |   |
+| o | s | u | A |   |
+```
+
+Por lo que nuestro mensaje cifrado sería `DfesTef oRv p  osuA`.
+
+Para descifrar el mensaje, el proceso sería el mismo pero a la inversa: arrancamos con una matriz de dimensiones `L x N`, siguiendo la misma lógica en la que `N` se calcula en base al parámetro `L` y la longitud del mensaje.
+
+Siguiendo la misma metodología se rellena la matríz, se transpone la misma y se recupera el texto de manera longitudinal respetando espacios.
+
+## La API
+
+El servicio debe proponer dos endpoints, uno para cifrar y otro para cifrar. Ambos deberan procesar `POST`s que contendrán un cuerpo formado en JSON con el mensaje y la cantidad de "vueltas" que se le debe dar al mensaje en la escítala:
+
+```
+{
+  "vueltas": <number>,
+  "mensaje": <string>
+}
+```
+
+y deberán devolver un JSON con el mensaje cifrado/descifrado con el siguiente formato:
+
+```
+{
+  "mensaje": <string>
+}
+```
 
 ## Condiciones del desafío
 
-<Desafío></Desafío>
+⛔ Sólo podrás incorporar dependencias para levantar el servidor. El algoritmo no puede basarse en paquetes externos.
+✅ Podrás utilizar cualquier lenguaje de programación que tenga un módulo HTTP disponible y [esté soportado en Repl.it](https://repl.it/languages)
 
 ## 📚 Herramientas de consulta
 
@@ -15,10 +77,6 @@ Podrás utilizar cualquier herramienta de búsqueda que necesites (amamos buscar
 ## ⏳ Tiempo
 
 Tendrás **1 hora** para resolver el desafío.
-
-## 🌈 Algunos ejemplos para que explores
-
-<Desafío></Desafío>
 
 ## 🤔 ¿Cómo presento mi código?
 
