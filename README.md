@@ -145,7 +145,7 @@ DevOff Argentina es un proyecto ideado por [Aldana Denise](https://twitter.com/g
 
 ### Java
 
-- https://github.com/gbobr/DevOff-Desafio-2, por [Germán Bobr](https://twitter.com/GermanBobr/status/1290133235494608897=
+- https://github.com/gbobr/DevOff-Desafio-2, por [Germán Bobr](https://twitter.com/GermanBobr/status/1290133235494608897)
 
 ### JavaScript
 
