@@ -48,7 +48,7 @@ Siguiendo la misma metodología se rellena la matríz, se transpone la misma y s
 
 ## La API
 
-El servicio debe proponer dos endpoints, uno para cifrar y otro para cifrar. Ambos deberan procesar `POST`s que contendrán un cuerpo formado en JSON con el mensaje y la cantidad de "vueltas" que se le debe dar al mensaje en la escítala:
+El servicio debe proponer dos endpoints, uno para cifrar y otro para descifrar. Ambos deberan procesar `POST`s que contendrán un cuerpo formado en JSON con el mensaje y la cantidad de "vueltas" que se le debe dar al mensaje en la escítala:
 
 ```
 {
