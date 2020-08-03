@@ -48,7 +48,7 @@ Siguiendo la misma metodología se rellena la matríz, se transpone la misma y s
 
 ## La API
 
-El servicio debe proponer dos endpoints, uno para cifrar y otro para descifrar. Ambos deberan procesar `POST`s que contendrán un cuerpo formado en JSON con el mensaje y la cantidad de "vueltas" que se le debe dar al mensaje en la escítala:
+El servicio debe proponer dos endpoints, uno para cifrar y otro para cifrar. Ambos deberan procesar `POST`s que contendrán un cuerpo formado en JSON con el mensaje y la cantidad de "vueltas" que se le debe dar al mensaje en la escítala:
 
 ```
 {
@@ -121,5 +121,40 @@ Cuando finalices la resolución del desafío, envianos un archivo ZIP con todo t
 ### Créditos
 
 DevOff Argentina es un proyecto ideado por [Aldana Denise](https://twitter.com/gizmowis), con el apoyo de [CoDeAr](https://twitter.com/somoscodear).
+
+## 🚀 Soluciones
+
+¡A continuación, listamos todas las soluciones que se fueron presentando para este desafío!
+
+🌟 Participantes EN VIVO:
+
+- https://github.com/rapkyt/DevOff-Desafio-2, por Rapkyt 🏆
+- https://github.com/GiulianaOlmos/DevOff-Desafio-2, por Giuli
+- https://github.com/JessVel/DevOff-Desafio-2, por Jess
+- https://github.com/FedericoLeiva12/DevOff-Desafio-2, por Fede
+
+💜 Participantes de la comunidad:
+
+### Ruby
+
+- https://github.com/aldrinmartoq/DevOff-Desafio-2, por Aldrin Martoq
+
+### Kotlin
+
+- https://github.com/ASarco/DevOff-Desafio-2, por [Ale Sarco](https://twitter.com/asarco_ES_ar/status/1290264906080583680)
+
+### Java
+
+- https://github.com/gbobr/DevOff-Desafio-2, por [Germán Bobr](https://twitter.com/GermanBobr/status/1290133235494608897=
+
+### JavaScript
+
+- https://github.com/Enkdress/DevOff-Desafio-2, por [Sergio Correa](https://twitter.com/xEnkdress/status/1290130283925299201)
+- https://github.com/lauritula/DevOff-Desafio-2, por [Laura](https://twitter.com/lauritula/status/1290091276927299585)
+- https://github.com/lautarolopez/DevOff-Desafio-2, por Lautaro Lopez
+
+### Python
+
+- https://github.com/lucasshrew/DevOff-Desafio-2, por Lucas Shrewsbury
 
 # ¡Muchos éxitos y a codear!
